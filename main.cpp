@@ -20,6 +20,7 @@ int main()
         if (v1 == 4|| v1 == 5 || v1 == 6) {
             cout << "Wow what a roll!" << endl;
             cout << "Wanna try again?" << endl;
+            std::cin>>response;
             if (response == 'y')
             {
 
